@@ -1,6 +1,6 @@
 class Hello
     def hello
-      puts 'HELLO!'
+      puts 'HELLO! WORLD'
     end
   end
   
