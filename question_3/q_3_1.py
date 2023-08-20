@@ -2,16 +2,16 @@
 # 小さい順に並べられている、要素数Nの配列A = [A1, A2,…, AN]がある。
 # 要素Xは配列Aの何番目に存在するかを出力せよ。
 
-def search(x, A):
+def search(X, A):
     L = 0
     R = N - 1
     while L <= R:
         M = (L + R) // 2
-        if x < A[M]:
+        if X < A[M]:
             R = M - 1
-        if x == A[M]:
+        if X == A[M]:
             return M
-        if x > A[M]:
+        if X > A[M]:
             L = M + 1
     return -1
 
